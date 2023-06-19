@@ -1,0 +1,64 @@
+
+body {
+	background-color: #dddddd;
+}
+
+h1 {
+	font-weight: 600;
+	text-decoration: underline;
+	font-size: 40px;
+	text-align: center;
+}
+
+.labels {
+	background-color: #eeeeee;
+}
+
+#input, #result {
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #eeeeee;
+	margin: 0;
+	padding-top: 0;
+	height: 5%;
+	font-weight: 500;
+	overflow-x: scroll;
+}
+
+ul {
+	list-style-type: none;
+	list-style-position: outside;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+#buttons {
+	text-align: center;
+}
+
+input[type="button"] {
+	font-size: 30px;
+	width: 20%;
+	height: 10%;
+}
+
+#btnDelete, #btnClear {
+	width: 30%;
+}
+
+footer {
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;;
+	height: 12%;
+}
+
+h1, footer, #calc {
+	border: 5px solid black;
+	border-radius: 10px;
+}
